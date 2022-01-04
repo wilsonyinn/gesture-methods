@@ -1,0 +1,32 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: coral;
+    width: 250px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: -3px 4px 7px black;
+    padding: 50px;
+}
+
+@media screen and (min-width: 576px) {
+    .card{
+        background-color: azure;
+    }
+}
+@media screen and (min-width: 768px) {
+    .card{
+        background-color:blanchedalmond;
+    }
+}
+@media screen and (min-width: 992px) {
+    .card{
+        background-color:aquamarine;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .card{
+        background-color:goldenrod;
+    }
+}
